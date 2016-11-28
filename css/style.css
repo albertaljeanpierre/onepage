@@ -1,0 +1,133 @@
+/************ START GENERAL *******************/
+body {
+    font-family: 'Helvetica Neue',  serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:  16px;
+    color: #333;
+    background: #fff;
+    margin: 0;
+    text-align: center;
+}
+.cf{
+    clear: both;
+}
+
+h1 , h2 , h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1; 
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+
+.text-primary {
+    color: #f05f40;
+}
+.btn {
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    background-color: #f2f2f2;
+    padding:   15px 30px;
+}
+.flleft {
+    float: left;
+    width: 50%;
+    
+}
+
+#strategic , #portefolio {
+    overflow: hidden;
+
+}
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/************ END GENERAL *******************/
+/************ START NAV  *******************/
+nav {
+    border-bottom: 1px solid rgba(0,0,0,.5);  
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    color: inherit;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    text-transform: uppercase;
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    display: block;
+    padding: 10px;
+}
+
+/************ END NAV *******************/
+
+
+/************ START SECTION ABOUT  *******************/
+#about {
+    margin: 100px 0;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px 0;
+    padding-bottom: 100px;
+    border-bottom: 50px solid #f05f40;
+}
+
+#about h2 {
+    margin-top: 100px;
+    color: #fff;
+}
+#about hr {
+    max-width: 50px;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    margin-bottom:  40px;
+}
+#about p {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+/************ END SECTION ABOUT *******************/
+
+
+/************ START SECTION STRATEGIC *******************/
+
+.marge  {
+   margin-right: 100px ;
+   margin-left:  100px ;
+}
+
+
+#strategic {
+    margin-bottom: 40px;
+}
+/************ END SECTION STRATEGIC *******************/
+
+/************ START SECTION portefolio *******************/
+
+/************ END SECTION portefolio *******************/
